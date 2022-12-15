@@ -277,6 +277,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mobile-socials__item:not(:last-child) {
@@ -1366,7 +1368,7 @@ img {
 .modal {
   position: absolute;
   padding: 40px;
-  width: 450px;
+  max-width: 450px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
@@ -1384,7 +1386,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    max-width: 528px;
   }
 }
 
