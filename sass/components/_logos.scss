@@ -1,0 +1,31 @@
+.web,
+.header__logo,
+.footer__logo {
+  font-family: $second-font;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+}
+
+.web {
+  color: $third-color;
+}
+
+.header__logo {
+  color: #000000;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 93px;
+  }
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+  color: $white-color;
+}
